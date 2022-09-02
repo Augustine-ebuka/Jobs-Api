@@ -40,7 +40,7 @@ app.use(cors());
 app.use(xss());
 
 app.get('/', (req, res) => {
-  res.send('Hello job api')
+  res.send('Hello job api thi was built by Augustine_dev')
 })
 
 app.use('/api/v1/jobs',authenticateUser,jobRouter)

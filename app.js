@@ -24,7 +24,7 @@ const errorHandlerMiddleware = require('./middleware/error-handler');
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-// extra packages
+// extra package dependencies
 
 
 app.set('trust proxy', 1);
